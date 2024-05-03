@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+.box{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+
+
+
+
+.nav{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.surname{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.links a{
+    padding: 0 40px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
